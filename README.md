@@ -14,5 +14,9 @@ Fitur - Fitur
 - Setting (Mengatur pengaturan game Sound)
 - Pemilihan karakter (Memilih Boy atau Girl)
 - Name (Memberikan nama)
+- Level (terdapat 10 level didalam permainan, akan di update jika developer mau)
 
-
+Tujuan Game :
+- Melatih daya berpikir anak dalam hal simetris
+- Memecahkan masalah
+- Mengambil keputusan
