@@ -1,15 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class rel here.
+ * Write a description of class panjang here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class rel extends ingame
+public class panjang extends ingame
 {
     /**
-     * Act - do whatever the rel wants to do. This method is called whenever
+     * Act - do whatever the panjang wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
