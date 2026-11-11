@@ -43,5 +43,10 @@ public class game1 extends World
         kotak.setLocation(442,683);
         S s = new S();
         addObject(s,605,683);
+        abu13.setLocation(660,384);
+        removeObject(abu13);
+        removeObject(abu1);
+        abu12.setLocation(909,224);
+        removeObject(abu12);
     }
 }
