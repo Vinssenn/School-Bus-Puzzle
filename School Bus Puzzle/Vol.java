@@ -8,6 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Vol extends Actor
 {
+    public Vol()
+    {
+        setImage("11.png");
+    }
+
     /**
      * Act - do whatever the Vol wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.

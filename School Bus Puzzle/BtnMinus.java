@@ -1,22 +1,19 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
 /**
- * Write a description of class BtnMinus here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Tombol kurang volume di layar Setting.
  */
 public class BtnMinus extends Button
 {
-    /**
-     * Act - do whatever the BtnMinus wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public BtnMinus()
+    {
+        setImage("12.png");
+    }
+
     public void act()
     {
-        if (Greenfoot.mouseClicked(this)) {
-            Setting duniaSetting = (Setting) getWorld();
-            duniaSetting.kurangVolume();
+        if (Greenfoot.mouseClicked(this) && getWorld() instanceof Setting) {
+            ((Setting) getWorld()).kurangVolume();
         }
     }
 }

@@ -1,19 +1,16 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
 /**
- * Write a description of class Level1 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Node level 1 di peta (hanya tampilan; klik ditangani oleh world Map).
  */
 public class Level1 extends Button
 {
-    /**
-     * Act - do whatever the Level1 wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public Level1()
+    {
+        setImage("tombol lepel 1.png");
+    }
+
     public void act()
     {
-        // Add your action code here.
     }
 }

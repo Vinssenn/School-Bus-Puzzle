@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Ghost
+comment0.text=\r\n\ Lapisan\ transparan\ seukuran\ papan\ yang\ menandai\ sel\ tujuan\ saat\ piece\ diseret\r\n\ (hijau\ \=\ bisa\ dipasang,\ merah\ \=\ tidak\ bisa).\r\n
+comment1.params=cols\ rows\ cellSize
+comment1.target=Ghost(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ clear()
+comment3.params=x\ y\ ok
+comment3.target=void\ mark(int,\ int,\ boolean)
+comment4.params=
+comment4.target=void\ refresh()
+numComments=5

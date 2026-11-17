@@ -1,21 +1,39 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
 /**
- * Write a description of class pause2 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Konfirmasi "Are You Sure?": YES = keluar ke peta level, NO = kembali ke layar pause.
  */
 public class pause2 extends World
 {
+    private game1 game;
 
-    /**
-     * Constructor for objects of class pause2.
-     * 
-     */
     public pause2()
-    {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1000, 700, 1); 
+    {
+        this(null);
+        prepare();
+    }
+
+    public pause2(game1 game)
+    {
+        super(1024, 768, 1);
+        this.game = game;
+        setBackground("keluar.png");
+        prepare();
+    }
+
+    private void prepare()
+    {
+        addObject(new Yes(), 295, 493);
+        addObject(new No(), 717, 493);
+    }
+
+    public void onYes()
+    {
+        Greenfoot.setWorld(new Map());
+    }
+
+    public void onNo()
+    {
+        Greenfoot.setWorld(new pause(game));
     }
 }

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=BoardGrid
+comment0.text=\r\n\ Gambar\ kotak-kotak\ kosong\ di\ papan\ tulis\ (sel\ yang\ harus\ diisi\ piece).\r\n
+comment1.params=grid\ cellSize
+comment1.target=BoardGrid(java.lang.String[],\ int)
+numComments=2

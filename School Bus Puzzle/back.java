@@ -1,21 +1,20 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
 /**
- * Write a description of class back here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Tombol panah kembali ke Lobby (dipakai di Setting dan Map).
  */
 public class back extends Button
 {
-    /**
-     * Act - do whatever the back wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public back()
+    {
+        setImage("back.png");
+    }
+
     public void act()
     {
-         if (Greenfoot.mouseClicked(this)) {
-        Greenfoot.setWorld(new Lobby());
-    }
+        if (Greenfoot.mouseClicked(this)) {
+            Audio.sfx("sfx_click.wav");
+            Greenfoot.setWorld(new Lobby());
+        }
     }
 }

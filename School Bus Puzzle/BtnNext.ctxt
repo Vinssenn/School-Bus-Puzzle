@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BtnNext
+comment0.text=\r\n\ Tombol\ lanjut\ ke\ level\ berikutnya\ (di\ layar\ level\ selesai).\r\n
+comment1.params=
+comment1.target=BtnNext()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

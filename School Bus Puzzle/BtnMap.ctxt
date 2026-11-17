@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BtnMap
+comment0.text=\r\n\ Tombol\ kembali\ ke\ peta\ level.\r\n
+comment1.params=
+comment1.target=BtnMap()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

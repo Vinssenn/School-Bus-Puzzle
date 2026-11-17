@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BtnPause
+comment0.text=\r\n\ Tombol\ pause\ di\ dalam\ level\:\ membuka\ layar\ "Do\ you\ want\ back\ to\ lobby?".\r\n
+comment1.params=
+comment1.target=BtnPause()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

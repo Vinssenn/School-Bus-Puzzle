@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Piece
+comment0.text=\r\n\ Satu\ potongan\ puzzle\ (tetromino\ /\ pentomino)\ yang\ bisa\ digeser\ dan\ diputar.\r\n\ Gambarnya\ disusun\ dari\ tile\ per\ sel,\ jadi\ bisa\ diputar\ ke\ 4\ arah\ dan\ diskalakan.\r\n\ Seluruh\ logika\ drag/drop\ ada\ di\ world\ game1;\ Piece\ hanya\ menyimpan\ data\ dan\ gambarnya.\r\n
+comment1.params=type
+comment1.target=Piece(int)
+comment2.params=
+comment2.target=int\ getType()
+comment3.params=
+comment3.target=int[][]\ getCells()
+comment4.params=
+comment4.target=int\ cellsW()
+comment5.params=
+comment5.target=int\ cellsH()
+comment6.params=cs
+comment6.target=greenfoot.GreenfootImage\ render(int)
+comment7.params=
+comment7.target=void\ act()
+numComments=8

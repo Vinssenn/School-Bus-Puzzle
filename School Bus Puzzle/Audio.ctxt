@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Audio
+comment0.text=\r\n\ Pengatur\ suara\:\ musik\ latar\ (menu\ /\ game)\ dan\ efek\ suara.\r\n\ Volume\ (0-100)\ diatur\ dari\ menu\ Setting\ dan\ berlaku\ untuk\ musik\ maupun\ efek.\r\n
+comment1.params=
+comment1.target=void\ playMenu()
+comment2.params=
+comment2.target=void\ playGame()
+comment3.params=s
+comment3.target=void\ switchTo(greenfoot.GreenfootSound)
+comment4.params=v
+comment4.target=void\ setVolume(int)
+comment5.params=file
+comment5.target=void\ sfx(java.lang.String)
+numComments=6

@@ -1,37 +1,39 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
 /**
- * Write a description of class pause here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Layar pause: "Do you want back to lobby?"  YES (lanjut ke konfirmasi) / RESUME (balik main).
+ * Game yang dijeda disimpan, jadi RESUME melanjutkan persis dari posisi terakhir.
  */
 public class pause extends World
 {
+    private game1 game;
 
-    /**
-     * Constructor for objects of class pause.
-     * 
-     */
     public pause()
-    {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1000, 700, 1); 
+    {
+        this(null);
+    }
+
+    public pause(game1 game)
+    {
+        super(1024, 768, 1);
+        this.game = game;
+        setBackground("back to lobby.png");
         prepare();
     }
-    
-    /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
-     */
+
     private void prepare()
     {
-        No no = new No();
-        addObject(no,288,485);
-        resume resume = new resume();
-        addObject(resume,717,487);
-        removeObject(no);
-        Yes yes = new Yes();
-        addObject(yes,295,493);
+        addObject(new Yes(), 295, 493);
+        addObject(new resume(), 717, 487);
+    }
+
+    public void onResume()
+    {
+        Greenfoot.setWorld(game != null ? game : new game1(1));
+    }
+
+    public void onYes()
+    {
+        Greenfoot.setWorld(new pause2(game));
     }
 }

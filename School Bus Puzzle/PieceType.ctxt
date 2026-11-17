@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PieceType
+comment0.text=\r\n\ Bentuk-bentuk\ piece\ (sel-sel\ penyusunnya)\ +\ rotasi.\r\n\ Kode\:\ O\ \=\ kotak,\ I\ \=\ balok,\ T\ \=\ T,\ S\ \=\ S,\ U\ \=\ "L"\ (biru,\ 5\ kotak).\r\n\ Koordinat\ sel\ (x,\ y),\ y\ ke\ bawah.\ Rotasi\ 90\ derajat\ searah\ jarum\ jam.\r\n
+comment1.params=type
+comment1.target=java.lang.String\ tile(int)
+comment2.params=c
+comment2.target=int\ fromCode(char)
+comment3.params=type\ rot
+comment3.target=int[][]\ cells(int,\ int)
+comment4.params=c
+comment4.target=int[][]\ rotateCw(int[][])
+comment5.params=c
+comment5.target=int\ width(int[][])
+comment6.params=c
+comment6.target=int\ height(int[][])
+numComments=7

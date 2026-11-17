@@ -1,19 +1,20 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
-/**
- * Write a description of class No here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class No extends puase
 {
-    /**
-     * Act - do whatever the No wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public No()
+    {
+        setImage("NO.png");
+    }
+
     public void act()
     {
-        // Add your action code here.
+        if (Greenfoot.mouseClicked(this)) {
+            Audio.sfx("sfx_click.wav");
+            World w = getWorld();
+            if (w instanceof pause2) {
+                ((pause2) w).onNo();
+            }
+        }
     }
 }

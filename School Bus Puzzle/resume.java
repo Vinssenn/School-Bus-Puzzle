@@ -1,21 +1,20 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
-/**
- * Write a description of class resume here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class resume extends puase
 {
-    /**
-     * Act - do whatever the resume wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public resume()
+    {
+        setImage("resume.png");
+    }
+
     public void act()
     {
-         if (Greenfoot.mouseClicked(this)) {
-        Greenfoot.setWorld(new game1());
+        if (Greenfoot.mouseClicked(this)) {
+            Audio.sfx("sfx_click.wav");
+            World w = getWorld();
+            if (w instanceof pause) {
+                ((pause) w).onResume();
+            }
+        }
     }
-}
 }

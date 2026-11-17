@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Selesai
+comment0.text=\r\n\ Layar\ "Level\ Complete"\:\ menampilkan\ waktu\ dan\ bintang,\ lalu\ pilihan\ Retry\ /\ Next\ /\ Map.\r\n
+comment1.params=
+comment1.target=Selesai()
+comment2.params=level\ stars\ timeMs
+comment2.target=Selesai(int,\ int,\ long)
+comment3.params=
+comment3.target=int\ getLevel()
+comment4.params=
+comment4.target=void\ prepare()
+comment5.params=
+comment5.target=void\ act()
+numComments=6

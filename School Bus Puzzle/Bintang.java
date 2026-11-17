@@ -1,19 +1,21 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
 /**
- * Write a description of class Bintang here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Ikon bintang (kosong atau penuh).
  */
 public class Bintang extends Actor
 {
-    /**
-     * Act - do whatever the Bintang wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act()
+    public Bintang()
     {
-        // Add your action code here.
+        setFull(false, 64);
+    }
+
+    public void setFull(boolean full, int size)
+    {
+        GreenfootImage g = new GreenfootImage(full ? "bintang penuh.png" : "bintang kosong.png");
+        if (size != g.getWidth()) {
+            g.scale(size, size);
+        }
+        setImage(g);
     }
 }

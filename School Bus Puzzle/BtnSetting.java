@@ -1,21 +1,17 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
-/**
- * Write a description of class BtnSetting here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class BtnSetting extends Button
 {
-    /**
-     * Act - do whatever the BtnSetting wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public BtnSetting()
+    {
+        setImage("SETTIN3.png");
+    }
+
     public void act()
     {
         if (Greenfoot.mouseClicked(this)) {
-        Greenfoot.setWorld(new Setting());
+            Audio.sfx("sfx_click.wav");
+            Greenfoot.setWorld(new Setting());
+        }
     }
-}
 }

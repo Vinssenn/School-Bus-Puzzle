@@ -1,7 +1,14 @@
 #BlueJ class context
 comment0.target=pause2
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ pause2\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Konfirmasi\ "Are\ You\ Sure?"\:\ YES\ \=\ keluar\ ke\ peta\ level,\ NO\ \=\ kembali\ ke\ layar\ pause.\r\n
 comment1.params=
 comment1.target=pause2()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ pause2.\r\n\ \r\n
-numComments=2
+comment2.params=game
+comment2.target=pause2(game1)
+comment3.params=
+comment3.target=void\ prepare()
+comment4.params=
+comment4.target=void\ onYes()
+comment5.params=
+comment5.target=void\ onNo()
+numComments=6

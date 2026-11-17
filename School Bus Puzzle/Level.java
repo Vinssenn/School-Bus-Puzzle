@@ -1,19 +1,16 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
 /**
- * Write a description of class Level here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Gambar node level 3-10 di peta (hanya tampilan; klik ditangani oleh world Map).
  */
 public class Level extends Actor
 {
-    /**
-     * Act - do whatever the Level wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public Level()
+    {
+        setImage("map lepel ke dua.png");
+    }
+
     public void act()
     {
-        // Add your action code here.
     }
 }

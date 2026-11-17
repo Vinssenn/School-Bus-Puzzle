@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Progress
+comment0.text=\r\n\ Menyimpan\ bintang\ yang\ sudah\ didapat\ per\ level\ selama\ game\ berjalan.\r\n\ Level\ 1\ selalu\ terbuka;\ level\ berikutnya\ terbuka\ kalau\ level\ sebelumnya\ sudah\ selesai.\r\n
+comment1.params=level
+comment1.target=boolean\ isUnlocked(int)
+comment2.params=
+comment2.target=int\ totalStars()
+numComments=3
